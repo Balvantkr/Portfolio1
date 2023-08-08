@@ -272,11 +272,12 @@ p{
 }
 
 
-@media screen and (max-width:1620px){
+@media screen and (max-width:1320px){
 
     .main{
         width: 90vw;
         height: 120vh;
+        margin: auto;
     }
 
     .devinfo{
@@ -328,6 +329,11 @@ p{
 }
 
 @media screen and (max-width:620px){
+
+    *{
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
 
     .main{
         width: 90vw;
