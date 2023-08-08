@@ -280,6 +280,10 @@ p{
         margin: auto;
     }
 
+    .devpic{
+       display: none;
+    }
+
     .devinfo{
         font-size: 10px;
     }
