@@ -37,7 +37,6 @@
 
 .main{
     width: 90vw;
-    overflow-y: scroll;
 }
 
 .container{
@@ -287,10 +286,6 @@ p{
 
     .devinfo{
         font-size: 10px;
-    }
-    
-    .devpic{
-        display: none;
     }
 
     .intro,.blogcontainer{
