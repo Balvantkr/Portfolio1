@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Playfair:wght@500&family=Roboto+Condensed&family=Roboto+Mono:ital,wght@1,200;1,400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.offset:before{
+    display: block;
+    content: " ";
+    height: 6rem;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important ;
+    padding: 15px 0;
+    position: fixed;
+}
+
+.nav-item a{
+    margin: 0 25px;
+}
+
+.navbar-nav .nav-link{
+    padding-left: 30px;
+    color: rgb(6, 237, 56);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.heading-content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 4em;
+    font-weight: 300;
+    font-family: monospace;
+    color: rgb(177, 183, 3);
+}
+
+.heading-content h1{
+    font-size: 5em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: rgb(6, 11, 16);
+}
+
+.heading-content p{
+    font-size: 3em;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color: rgb(3, 180, 32);
+}
+
+#home{
+    position: relative;
+}
+
+
+    /*--------------- ABOUT START---------------- */
+
+ 
+                            
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: black ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+#about h3{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+#about h2{
+    color: rgb(194, 134, 4);
+}
+
+#about p{
+    font-size: 16px;
+}
+
+
+/*------------------SERVICE PAGE START--------------------*/
+
+#service .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: black ;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#service .btn a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#service .btn:hover{
+    border: 2px solid white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#service h3{
+    font-size: 50px;
+    color: rgb(200, 34, 4);
+}
+
+/*------------------ NEWSLETTER SECTION ----------------------*/
+
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(110, 93, 93);
+}
+
+.sec1 h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 55px;
+    color: black;
+}
+
+.sec1 p{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
+/*----------------- ABOUT SECTION ----------------------*/
+
+#contact h3{
+    font-size: 65px;
+    margin-top: 51px;
+    font-weight: bold;
+    color: crimson;
+}
+
+
+.form-group label{
+    font-size: 31px;
+}
+
+.form-group input{
+    font-size: 23px;
+}
+
+#contact .btn{
+    border: 3px solid transparent;
+    width: 50%;
+    background:rgb(12, 14, 12) ;
+    border-radius: 13px;
+    margin-top: 7px;
+    font-size: 23px;
+    color: rgb(19, 167, 19);
+}
+
+/*---------------------- MEDIA QUERY ----------------------*/
+
+@media only screen and (max-width: 1200px) {
+    /*------------------ FOR TABLETS DEVICES ----------------*/
+
+    .navbar{
+        letter-spacing: 0.07em;
+        padding: 10px 0px;
+    }
+
+    .heading-content h5{
+        font-size: 1.5em;
+    }
+    
+    .heading-content h1{
+        font-size: 2em;
+    }
+
+    .heading-content p{
+        font-size: 1em;
+    }
+
+    #contact{
+        height: 40vh;
+    }
+
+    .heigh{
+        height: 80vh;
+    }
+
+   #contact h3{
+    font-size: 2em;
+   }
+
+   #contact label{
+    font-size: 1.5em;
+   }
+
+}
+
+
+@media screen and (max-width: 479px) {
+    /*----------------- FOR SMARTPHONES ------------------*/
+
+    .navbar{
+        letter-spacing: 0.07em;
+        padding: 7px 0px;
+    }
+
+    .heading-content h5{
+        font-size: 1.5em;
+    }
+    
+    .heading-content h1{
+        font-size: 2em;
+    }
+
+    .heading-content p{
+        font-size: 0.7em;
+    }
+
+    #contact{
+        height: 70vh;
+    }
+
+    .heigh{
+        height: 120vh;
+    }
+
+    #contact .post-heading h3{
+        font-size: 2em;
+    }
+
+    
+}
+

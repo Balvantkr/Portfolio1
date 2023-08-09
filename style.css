@@ -111,6 +111,78 @@
 }
 
 
+        /* SERVICE PAGE */
+
+#service{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#service button{
+    border: 2px solid transparent;
+    width: 20%;
+    padding: 15px 21px;
+    background: black ;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+#service .btn a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+}
+
+#service .btn:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#service h1{
+    font-size: 47px;
+    color: rgb(19, 245, 11);
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+
+}
+
+#service h3{
+    font-size: 37px;
+    color: rgb(200, 34, 4);
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#service img{
+    height: 350px;
+    width: 300px ;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.row{
+    margin-left: 20vh;
+    margin-top: 30px;
+}
+
+.card-body{
+    padding-left: 50px;
+}
+
+.card-text{
+    margin-bottom: 30px;
+}
+
         /* CONTACT ME PAGE */
 
 .contactform{
@@ -330,14 +402,64 @@ p{
         padding: 7px 13px;
         margin: 10px 0;
     }
+
+    #service{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #service h1{
+        font-size: 30px;
+        color: rgb(19, 245, 11);
+        text-align: center;
+        align-items: center;
+        margin: 20px 0;
+    
+    }
+
+    #service h3{
+        font-size: 20px;
+        color: rgb(200, 34, 4);
+        text-align: center;
+        align-items: center;
+        margin: 15px 0;
+    }
+    
+    #service p{
+        font-size: 13px;
+    }
+    
+    #service img{
+        height: 270px;
+        width: 170px ;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        margin: 20px 0;
+    }
+    
+    .row{
+        margin-left: 3vh;
+        margin-top: 20px;
+    }
+    
+    .card-body{
+        padding-left: 10px;
+    }
+    
+    .card-text{
+        margin-bottom: 25px;
+    }
+
+    #service{
+        height: 250vh;
+    }
 }
 
 @media screen and (max-width:620px){
-
-    *{
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
 
     .main{
         width: 90vw;
@@ -356,6 +478,61 @@ p{
     #form-check input {
         width: 18px;
         margin: 3px 0;
+    }
+
+    #service{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #service h1{
+        font-size: 20px;
+        color: rgb(19, 245, 11);
+        text-align: center;
+        align-items: center;
+        margin: 10px 0;
+    
+    }
+
+    #service h3{
+        font-size: 15px;
+        color: rgb(200, 34, 4);
+        text-align: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    
+    #service p{
+        font-size: 9px;
+    }
+    
+    #service img{
+        height: 270px;
+        width: 170px ;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        margin: 20px 0;
+    }
+    
+    .row{
+        margin-left: 3vh;
+        margin-top: 20px;
+    }
+    
+    .card-body{
+        padding-left: 10px;
+    }
+    
+    .card-text{
+        margin-bottom: 25px;
+    }
+
+    #service{
+        height: 430vh;
     }
 }
 
