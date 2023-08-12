@@ -285,7 +285,7 @@ p{
     font-family: 'Roboto Mono', monospace;
     margin: 20px;
     color: rgb(14, 19, 148);
-    font-size: 27px;
+    font-size: 21px;
 }
 
 .skillcontainer{
@@ -366,6 +366,10 @@ p{
 
     .contactform{
         margin: 5px 3px;
+    }
+
+    .contactform form div input {
+        width: 36vw;
     }
 
     .buttons{
@@ -533,6 +537,10 @@ p{
 
     #service{
         height: 430vh;
+    }
+
+    .contactform form div input {
+        width: 51vw;
     }
 }
 
