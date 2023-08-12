@@ -352,10 +352,6 @@ p{
         margin: auto;
     }
 
-    .devpic{
-       display: none;
-    }
-
     .devinfo{
         font-size: 10px;
     }
@@ -396,9 +392,16 @@ p{
     .infocontainer{
         height: 58vh;
         width: 80vw;
-        margin: 44px auto;
+        padding: 40px;
+        margin-bottom: 30px;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
+    }
+
+    .devpic img{
+        width: 47vw;
+        height: 39vh;
     }
 
     .btn{
@@ -475,6 +478,11 @@ p{
         font-size: 9px;
     }
 
+    .devpic img{
+        width: 67vw;
+        height: 39vh;
+    }
+    
     .blogitem p{
         font-size: 9px;
     }
